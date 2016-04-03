@@ -1,0 +1,322 @@
+
+-- Table: quotes
+CREATE TABLE quotes ( 
+    id        INTEGER        PRIMARY KEY AUTOINCREMENT,
+    q_content VARCHAR( 50 )  NOT NULL,
+    q_author  VARCHAR( 20 )  DEFAULT '佚名',
+    q_type    VARCHAR( 10 )  NOT NULL,
+    q_count                  DEFAULT 0 
+);
+
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (1, '生命，那是自然付给人类去雕琢的宝石。', '诺贝尔', '人生', 1);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (2, '生命是一条艰险的狭谷，只有勇敢的人才能通过。', '米歇潘', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (3, '你的心灵常常是战场。在这个战场上，你的理性与判断和你的热情与嗜欲开战。', '纪伯伦', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (4, '和你一同笑过的人,你可能把他忘掉,但是和你一同哭过的人,你却永远不忘。', '纪伯伦', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (5, '谁若游戏人生，他就一事无成；谁不能主宰自己，便永远是一个奴隶。', '歌德', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (6, '人生就是学校。在那里，与其说好的教师是幸福，不如说好的教师是不幸。', '海贝尔', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (7, '人的一生是短的，但如果卑劣地过这一生，就太长了。', '莎士比亚', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (8, '生命不可能有两次，但许多人连一次也不善于度过。', '吕凯特', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (9, '生命不等于是呼吸，生命是活动。', '卢梭', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (10, '生命是一条艰险的峡谷，只有勇敢的人才能通过。', '米歇潘', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (11, '生命如同寓言，其价值不在与长短，而在与内容。', '塞涅卡', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (12, '人生就像弈棋，一步失误，全盘皆输，这是令人悲哀之事；而且人生还不如弈棋，不可能再来一局，也不能悔棋。', '弗洛伊德', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (13, '人生就像一本书，傻瓜们走马看花似地随手翻阅它，聪明的人用心地阅读它。因为他知道这本书只能读一次。', '保罗', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (14, '命运很像撒娇任性的女人，只喜爱好些泼辣果敢的人，对于他们才百依百顺，惟命是从呢。', '库普林', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (15, '如果容许我再过一次人生，我愿意重复我的生活。因为，我从来就不后悔过去，不惧怕将来。', '蒙田', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (16, '等到自私的幸福变成了人生唯一的目标之后，不久人生就变得没有目标。', '罗曼.罗兰', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (17, '人的才华就如海绵的水，没有外力的挤压，它是绝对流不出来的。流出来后，海绵才能吸收新的源泉。', '佚名', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (18, '明智者创造的机会比他发现的要多。', '培根', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (19, '人的生命恰似一部小说，其价值在于贡献而不在于短长。', '佚名', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (20, '作为一个人，要是不经历过人世上的悲欢离合，不跟生活打过交手仗，就不可能真正懂得人生的意义。', '杨朔', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (21, '人生到世界上来，如果不能使别人过得好一些，反而使他们过得更坏的话，那就太糟糕了。', '艾略特', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (22, '人生至愚是恶闻已过，人生至恶是善谈人过。', '申居郧', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (23, '失足可以很快弥补，失言却可能永远无法补救。', '富兰克林', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (24, '虽然人人都企求得很多，但所需要的却是微乎其微。因为人生是短暂的，人的命运是有限的。', '歌德', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (25, '我们曾经为欢乐而斗争，我们将要为欢乐而死。因此，悲哀永远不要同我们的名字联在一起。', '伏契克', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (26, '人不应该像走兽那样活着，应该追求知识和美德。', '佚名', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (27, '我以为人们在每一个时期都可以过有趣而且有用的生活。我们应该不虚度一生，应该能够说，“我已经做了我能做的事”，人们只能要求我们如此，而且只有这样我们才能有一点欢乐。', '居里夫人', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (28, '因为我对权威的轻蔑，所以命运惩罚我，使我自己竟也成了权威。', '爱因斯坦', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (29, '无论在什么样的社会里，一个人的理想，是为了多数人的利益，为了社会的进步，对社会生产力的发展起了促进作用，也就是说，合乎社会历史的发展规律，就是伟大的理想。', '陶铸', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (30, '有经验的老人执事令人放心，而青年人的干劲则鼓舞人心。如果说，老人的经验是可贵的，那么青年人的纯真则是崇高的。', '培根', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (31, '改变好习惯比改掉坏习惯容易的多，这是人生的一大悲衰。', '毛姆', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (32, '人生一征途耳，其长百年，我已走过十之七八回首前尘，历历在目，崎岖多于平坦，忽深谷，忽洪涛，幸赖桥梁以渡。桥何名欤？曰奋斗。', '茅以升', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (33, '所谓高质量人生，其实就是平衡不断遭到破坏和重建。', '赵鑫珊', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (34, '衡量人生的标准是看其是否有意义；而不是看其有多长。', '普鲁塔克', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (35, '自己活着，就是为了使别人过得更美好。', '雷锋', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (36, '要知道对好事的称颂过于夸大，也会招来人们的反感轻蔑和嫉妒。', '培根', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (37, '一个人光溜溜的到这个世界来,最后光溜溜的离开这个世界而去,彻底想起来,名利都是身外物,只有尽一人的心力,使社会上的人多得他工作的裨益,是人生最愉快的事情。', '邹韬奋', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (38, '放纵自己的欲望是最大的祸害；谈论别人的隐私是最大的罪恶；不知自己过失是最大的病痛。', '亚里士多德', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (39, '一个奇怪的、虚荣心十足的、令人生厌的女人！我看我实在无法喜欢她，除非是在汪洋大海中的一只木筏上，见不到其他粮食的时候。', '马克吐温', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (40, '对上级谦恭是本分；对平辈谦逊是和善；对下级谦逊是高贵；对所有的人谦逊是安全。', '亚里士多德', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (41, '不管怎样的事情，都请安静地愉快吧!这是人生。我们要依样地接受人生，勇敢地大胆地，而且永远地微笑着。', '卢森堡', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (42, '人类经常把一个生涯发生的事，撰写成历史，在从那里看人生;其实，那不过是衣服，人生是内在的。', '罗曼.罗兰', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (43, '人是为了思考才被创造出来的。', '帕斯卡', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (44, '凡不是就着泪水吃过面包的人是不懂得人生之味的人。', '歌德', '人生', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (45, '明日复明日，明日何其多，我生待明日，万事成蹉跎。', '文嘉', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (46, '盛年不重来，一日难再晨。及时当勉励，岁月不待人。', '陶渊明', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (47, '一个人越知道时间的价值，越倍觉失时的痛苦！', '但丁', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (48, '抛弃时间的人，时间也抛弃他。', '莎士比亚', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (49, '平庸的人关心怎样耗费时间，有才能的人竭力利用时间。', '叔本华', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (50, '光景不待人，须叟发成丝。', '李白', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (51, '三更灯火五更鸡，正是男儿读书时。黑发不如勤学早，白发方悔读书迟。', '颜真卿', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (52, '时间就像海绵里的水，只要愿挤，总还是有的。', '鲁迅', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (53, '在世界上我们只活一次，所以应该爱惜光阴。必须过真实的生活，过有价值的生活。', '巴甫洛夫', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (54, '莫等闲，白了少年头，空悲切！', '岳飞', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (55, '在今天和明天之间，有一段很长的时间；趁你还有精神的时候，学习迅速办事。', '歌德', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (56, '一万年太久，只争朝夕。', '毛泽东', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (57, '不管饕餮的时间怎样吞噬着一切，我们要在这一息尚存的时候，努力博取我们的声誉，使时间的镰刀不能伤害我们。', '莎士比亚', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (58, '不要老叹息过去，它是不再回来的；要明智地改善现在。要以不忧不惧的坚决意志投入扑朔迷离的未来。', '朗费罗', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (59, '不要为已消尽之年华叹息，必须正视匆匆溜走的时光。', '布莱希特', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (60, '当许多人在一条路上徘徊不前时，他们不得不让开一条大路，让那珍惜时间的人赶到他们的前面去。', '苏格拉底', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (61, '敢于浪费哪怕一个钟头时间的人，说明他还不懂得珍惜生命的全部价值。', '达尔文', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (62, '成功＝艰苦劳动＋正确的方法＋少说空话。', '爱因斯坦', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (63, '合理安排时间，就等于节约时间。', '培根', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (64, '没有方法能使时钟为我敲已过去了的钟点。', '拜伦', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (65, '人的全部本领无非是耐心和时间的混合物。', '巴尔扎克', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (66, '任何节约归根到底是时间的节约。', '马克思', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (67, '时间就是能力等等发展的地盘。', '马克思', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (68, '时间是世界上一切成就的土壤。时间给空想者痛苦，给创造者幸福。', '麦金西', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (69, '时间是伟大的导师。', '伯克', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (70, '时间是一个伟大的作者，它会给每个人写出完美的结局来。', '卓别林', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (71, '时间最不偏私，给任何人都是二十四小时；时间也是偏私，给任何人都不是二十四小时。', '赫胥黎', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (72, '忘掉今天的人将被明天忘掉。', '歌德', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (73, '辛勤的蜜蜂永没有时间的悲哀。', '布莱克', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (74, '在所有的批评中，最伟大、最正确、最天才的是时间。', '别林斯基', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (75, '从不浪费时间的人，没有工夫抱怨时间不够。', '杰弗逊', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (76, '时间是我的财产，我的田亩是时间。', '歌德', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (77, '集腋成裘，聚沙成塔。几秒钟虽然不长，却构成永恒长河中的伟大时代。', '弗莱彻', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (78, '春光不自留，莫怪东风恶。', '莎士比亚', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (79, '抛弃今天的人，不会有明天；而昨天，不过是行去流水。', '约翰·洛克', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (80, '天可补，海可填，南山可移。日月既往，不可复追。', '曾国藩', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (81, '一切节省，归根到底都归结为时间的节省。', '马克思', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (82, '利用时间是一个极其高级的规律。', '恩格斯', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (83, '逝者如斯夫，不舍昼夜。', '孔子', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (84, '今天所做之事勿候明天，自己所做之事勿候他人。', '歌德', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (85, '今天应做的事没有做，明天再早也是耽误了。', '裴斯泰洛齐', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (86, '浪费时间是一桩大罪过。', '卢梭', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (87, '你热爱生命吗？那么别浪费时间，因为时间是组成生命的材料。', '富兰克林', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (88, '把活着的每一天看作生命的最后一天。', '海伦·凯勒', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (89, '迁延蹉跎，来日无多，二十丽姝，请来吻我，衰草枯杨，青春易过。', '莎士比亚', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (90, '普通人只想到如何度过时间，有才能的人设法利用时间。', '叔本华', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (91, '黄金时代在我们面前而不在我们背后。', '美国作家马克·吐温', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (92, '人生苦短，若虚度年华，则短暂的人生就太长了。', '英国剧作家莎士比亚', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (93, '只要我们能善用时间，就永远不愁时间不够用。', '歌德', '时间', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (94, '理想是指路明灯。没有理想，就没有坚定的方向；而没有方向，就没有生活。', '列夫·托尔斯泰', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (95, '世界上最快乐的事，莫过于为理想而奋斗。', '苏格拉底', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (96, '理想的实现只靠干，不靠空谈。', '德谟克利特', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (97, '一个人的活动，如果不是被高尚的思想所鼓舞，那它是无益的、渺小的。', '车尔尼雪夫斯基', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (98, '没有理想，就达不到目的；没有勇敢，就得不到东西。', '别林斯基', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (99, '生活中没有理想的人，是可怜的人。', '屠格涅夫', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (100, '人生最高理想，在求达于真理。', '李大钊', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (101, '每个人都有一定的理想，这种理想决定着他的努力和判断的方向。就在这个意义上，我从来不把安逸和快乐看做生活目的本身这种理论基础，我叫它猪栏的理想。', '爱因斯坦', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (102, '正因为有了理想，生活才变得这样甜蜜；正因为有了理想，生活才显得如此宝贵。因为，并不是任何理想都能如愿以偿！我将带着对生活的热爱，对生活的憧憬一直走下去，永远走下去……', '艾特玛托夫', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (103, '人生应该如蜡烛一样，从顶燃到底，一直都是光明的。', '萧楚女', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (104, '如果能追随理想而生活，本着正直自由的精神，勇往直前的毅力，诚实而不自欺的思想而行，则定能臻于至善至美的境地。', '居里夫人', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (105, '我相信我们应该在一种理想主义中去找精神上的力量，这种理想主义要能够不使我们骄傲，而又能够使我们把我们的希望和梦想放得很高。', '居里夫人', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (106, '生活不能没有理想。应当有健康的理想，发自内心的理想，来自本国人民的理想。', '季米特洛夫', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (107, '理想是世界的主宰。', '霍桑', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (108, '一个人一天也不能没有理想，但凭侥幸，怕吃苦，没有真才实学，再好的理想也实现不了。', '张华', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (109, '检验一个人的理想之果如何，不是看他从社会上得到什么，而是看他给了人类什么。', '王伯勋', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (110, '没有崇高的生活理想的人，像大海里的一片小舟一样，它时刻都会被狂风巨浪袭击而沉没海底。但一个人有了共产主义的理想，并无限地忠诚于这个理想，他就能经受任何风雨和困难的考验。', '吴运铎', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (111, '我们的斗争和劳动，就是为了不断地把先进的理想变为现实。', '周扬', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (112, '一个精神生活很充实的人，一定是一个很有理想的人，一定是一个很高尚的人，一定是一个只做物质的主人而不做物质的奴隶的人。', '陶铸', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (113, '无论在什么样的社会里，一个人的理想，是为了多数人的利益，为了社会的进步，对社会生产力的发展起了促进作用，也就是说，合乎社会历史的发展规律，就是伟大的理想。', '陶铸', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (114, '台阶是一层一层筑起的，目前的现实是未来理想的基础。只想将来，不从近处现实着手，就没有基础，就会流于幻想。', '徐特立', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (115, '在当前现实的狭隘基础上，有高尚理想，全面的计划；在一步一步行动上，想到远大前途，脚踏实地地稳步前进，才能有所成就。', '徐特立', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (116, '一个人有了远大的理想，就是在最艰苦困难的时候，也会感到幸福。', '徐特立', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (117, '理想是需要的，是我们前进的方向。现实有理想的指导才有前途；反过来，也必须从现实的努力奋斗中才能实现理想。', '周恩来', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (118, '如果不献身给一个伟大的理想，生命就是毫无意义的。', '何塞·黎萨尔', '理想', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (119, '生命如流水，只有在他的急流与奔向前去的时候，才美丽，才有意义。', '张闻天', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (120, '人生天地之间，若白驹过隙，忽然而已。', '庄子', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (121, '你热爱生命吗？那么别浪费时间，因为时间是构成生命的材料。', '富兰克林', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (122, '生命，那是自然会给人类去雕琢的宝石。', '诺贝尔', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (123, '节省时间，也就是使一个人的有限的生命，更加有效，也即等于延长了人的生命。', '鲁迅', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (124, '生命不可能有两次，但许多人连一次也不善于度过。', '吕凯特', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (125, '盛年不重来，一日难再晨。及时当勉励，岁月不待人。', '陶渊明', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (126, '生命，只要你充分利用，它便是长久的。', '塞内加', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (127, '在我们了解什么是生命之前，我们已将它消磨了一半。', '赫伯特', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (128, '人生不售来回票，一旦动身，绝不能复返。', '罗曼·罗兰', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (129, '时间就是生命，时间就是速度，时间就是力量。', '郭沫若', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (130, '在坎坷的生命里，我们要有超越自我之感觉。', '贝纳文特', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (131, '生命苦短，只是美德能将它传到遥远的后世。', '莎士比亚', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (132, '能将自己的生命寄托在他人记忆中，生命仿佛就加长了一些；光荣是我们获得的新生命，其可珍可贵，实不下于天赋的生命。', '孟德斯鸠', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (133, '生命，如果跟时代的崇高的责任联系在一起，你就会感到它永垂不朽。', '车尔尼雪夫斯基', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (134, '生命如同寓言，其价值不在长短，而在内容。', '塞内卡', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (135, '懂得生命真谛的人，可以使短促的生命延长。', '西塞罗', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (136, '人生的光荣，不在永远不失败，而在于能够屡扑屡起。', '拿破仑', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (137, '生当作人杰，死亦为鬼雄。', '李清照', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (138, '人的一生就是进行尝试，尝试的越多，生活就越美好。', '爱默生', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (139, '我们的生命是天赋的，我们惟有献出生命，才能得到生命。', '泰戈尔', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (140, '天下兴亡，匹夫有责。', '顾炎武', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (141, '生命不等于是呼吸，生命是活动。', '卢梭', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (142, '一个伟大的灵魂，会强化思想和生命。', '爱默生', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (143, '世界上只有一种英雄主义，那就是了解生命而且热爱生命的人。', '罗曼·罗兰', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (144, '我们只有献出生命，才能得到生命。', '泰戈尔', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (145, '内容充实的生命就是长久的生命。我们要以行为而不是以时间来衡量生命。', '小塞涅卡', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (146, '如能善于利用，生命乃悠长。', '塞涅卡', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (147, '生命是美丽的，对人来说，美丽不可能与人体的正常发育和人体的健康分开。', '车尔尼雪夫斯基', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (148, '浪费生命是做人的最大悲剧。', '曼杰', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (149, '人生有两出悲剧：一是万念俱灰，另一是踌躇满志。', '肖伯纳', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (150, '人生不售来回票，一旦动身，绝不能复返。', '罗曼·罗兰', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (151, '苦难是人生的老师。', '巴尔扎克', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (152, '世上只有一个真理，便是忠实于人生，并且爱它。', '罗曼·罗兰', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (153, '人生天地间，忽如远行客。', '《古诗十九首》', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (154, '一生复能几，倏如流电惊。', '陶渊明', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (155, '天地无终极，人命若朝霞。', '曹植', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (156, '三万六千日，夜夜当秉烛。白日何短短，百年若易海。', '李白', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (157, '少年易老学难成，一寸光阴不可轻，未觉池塘春草梦，阶前梧叶已秋声。', '朱熹', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (158, '为了解人生有多么短暂，一个人必须走过漫长的生活道路。', '叔本华', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (159, '附和真理，生命便会得到永生。', '泰戈尔', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (160, '生命靠许多分歧的问题维持下去，这些问题不能不“与生俱存”，只有在死亡中才得以解决。', '舒美赫', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (161, '生命在闪耀中现出绚烂，在平凡中现出真实。', '伯克', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (162, '生命的用途并不在长短而在我们怎样利用它。许多人活的日子并不多，却活了很长久。', '蒙田', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (163, '谁能以深刻的内容充实每个瞬间，谁就是在无限地延长自己的生命。', '库尔茨', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (164, '我们的生命只有一次，但我们如能正确地运用它，一次足矣。', '英国谚语', '生命', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (165, '成功的秘诀，在永不改变既定的目的。', '卢梭', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (166, '一朵成功的花都是由许多雨、血、泥和强烈的暴风雨的环境培养成的。', '冼星海', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (167, '如果你希望成功，当以恒心为良友，以经验为参谋，以当心为兄弟，以希望为哨兵。', '爱迪生', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (168, '大多数人是保守的，不轻易相信新事物，但能容忍对现实中的众多失败。', '卡莱尔', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (169, '要成功不需要什么特别的才能，只要把你能做的小事做得好就行了。', '维龙', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (170, '成功的唯一秘诀是坚持最后一分钟。', '柏拉图', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (171, '成功的最佳捷径是让人们清楚地知道，你的成功符合他们的利益。', '拉布吕耶尔', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (172, '知识、辨别力、正直、学问和良好的品行，是成功的主要条件，仅次于兴趣和机遇。', '佚名', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (173, '只有胜利才能生存，只有成功才有代价，只有耕耘才有收获。', '佚名', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (174, '荣誉妒忌成功，而成功却以为自己就是荣誉。', '让·罗斯唐', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (175, '如果你想在这个世界上获得成功，当你进入某个沙龙时，你必须让你的虚荣心向别人的虚荣心致敬。', '让莉斯夫人。', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (176, '我们听说过多少“即将成功的人物”！他们究竟都去了何方？', '何瑟·平内罗', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (177, '拼命去争取成功，但不要期望一定成功。', '迈克尔·法拉第', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (178, '只有把抱怨环境的心情，化为上进的力量，才是成功的保证。', '罗曼·罗兰', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (179, '胜利者往往是从坚持最后五分钟的时间中得来成功。', '牛顿', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (180, '如果你问一个善于溜冰的人怎样获得成功时，他会告诉你：“跌倒了，爬起来”，这就是成功。', '牛顿', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (181, '本来无望的事，大胆尝试，往往能成功。', '莎士比亚', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (182, '不应当急于求成，应当去熟悉自己的研究对象，锲而不舍，时间会成全一切。凡事开始最难，然而更难的是何以善终。', '莎士比亚', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (183, '懒惰受到的惩罚不仅仅是自己的失败，还有别人的成功。', '朱尔·勒纳尔', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (184, '成功的秘诀很简单，无论何时，不管怎样，我也绝不允许自己有一点点灰心丧气。', '爱迪生', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (185, '失败带给我的经验与收获，在于我已经知道这样做不会成功的证明，下一次我可以避免同样的错误了。', '爱迪生', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (186, '成功是功与过的试金石。', '拜伦', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (187, '成功是陡峭的阶梯，两手插在裤袋里爬不上去。', '佚名', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (188, '成功的艺术处理的最高成就就是美。', '歌德', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (189, '许多次失败总会造就一次成功。', '佚名', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (190, '不会在失败中找出经验教训的人，他的通向成功的道路是遥远的。', '佚名', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (191, '不断的奋斗就是走上成功之路。', '孙中山', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (192, '我成功，因为志在要成功，我未尝踌躇。', '拿破仑', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (193, '什么是成功的秘诀？“A=X+Y+Z”，“A代表成功，X代表艰苦劳动，Y代表正确方法，Z代表少说废话”。', '爱因斯坦', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (194, '一个获得成功的人，从他的同胞那里所取得的，总是无可比拟地超过他对他们所做的贡献。', '爱因斯坦', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (195, '在一个崇高的目的支持下，不停地工作，即使慢，也一定会获得成功。', '爱因斯坦', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (196, '要想成功，你必须自己制造机会，绝不能愚蠢地坐在路边，等待有人经过，邀请你同往财富与幸福之路。', '歌夫', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (197, '一分钟的成功，付出的代价却是好些年的失败。', '勃郎宁', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (198, '人生所缺乏的不是才干而是志向，不是成功的能力而是勤劳的意志。', '郭尔王', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (199, '成功之道无他，惟悉力从事你的工作，而不消存沽名钓誉之心。', '朗费罗', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (200, '有很多人是用青春的幸福作了成功的代价。', '莫扎特', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (201, '失败和挫折等待着人们，一次又一次使青春的容颜蒙上哀愁，但也使人类生活的前景增添了一份尊严，这是任何成功都无法办到的。', '梭罗', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (202, '对于成功的坚信不疑时常会导致真正的成功。', '弗洛伊德', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (203, '成功的快乐在于一次又一次对自己的肯定，而不在于长久满足于某件事情的完成。', '罗兰', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (204, '每一个人都多多少少有点惰性。一个人的意志力量不够推动他自己，他就失败，谁最能推动自己，谁就最先得到成功。', '罗兰', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (205, '人所缺乏的不是才干而是志向，不是成功的能力而是勤劳的意志。', '部尔卫', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (206, '“以准备失败的心情去迎接胜利”，这是一个人面临得失的时候所必须有的一种态度。假如只准备成功而不准备失败，当失败时就会来不及了。', '罗兰', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (207, '成功的花，人们只惊羡它的明艳，然而当初的芽儿浸透了奋斗的泪泉，洒遍了牺牲的血雨。', '冰心', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (208, '多数人在人潮汹涌的世间，白白挤了一生，从来不知道哪里才是他所想要到达的地方，而有目标的人却始终不忘记自己的方向，所以他能打开出路，走向成功。', '罗兰', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (209, '不干，固然遇不着失败，也绝对遇不着成功。', '邹韬奋', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (210, '容易成功和难于成功同样能刺激人的愿望。', '巴尔扎克', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (211, '当一个人一心一意做好事情的时候，他最终是必然会成功的。', '卢梭', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (212, '成功之秘诀，在始终不变其目的。', '毕困士腓特', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (213, '我决不相信，任何先天的或后天的才能，可以无需坚定的长期若干的品质而得到成功。', '狄更斯', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (214, '高傲自大是成功的流沙。', '阿比', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (215, '常往光明快乐一面看，这就是我一生成功的诀窍。', '科克', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (216, '切记，成功乃是辛劳的报酬。', '索福克勒斯', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (217, '谋及下者无失策，举及众者无顿功。', '桓宽', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (218, '作为一个科学家来说，我的成功……最主要的是：爱科学、在长期思索任何问题上的无限耐心、在观察和搜集事实上的勤勉、相当的发明能力和常识。', '达尔文', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (219, '合抱之木，生于毫末；九层之台，起于垒土；千里之行，始于足下。', '老子', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (220, '不成心专一事，决不能达成一志。', '道元', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (221, '一个不注意小事情的人，永远不会成功大事业。', '卡耐基', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (222, '失败是成功之母。', '菲利普斯', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (223, '成功好比一张梯子，“机会”是梯子两侧的长柱，“能力”是插在两个长柱之间的横木。只有长柱没有横木，梯子没有用处。', '狄更斯', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (224, '一旦你产生了一个简单的坚定的想法,只要你不停地重复它,终会使之成为现实。提练、坚持、重复,这是你成功的法宝;持之以恒,最终会达到临界值。', '杰克·韦尔奇', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (225, '当机会呈现在眼前时，若能牢牢掌握，十之八九都可以获得成功而能克服偶发事件，并且替自己找寻机会的人，更可以百分之百的获得胜利。', '卡耐基', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (226, '饱暖则气昏志惰，饥寒则神紧骨坚。', '王永彬', '成功', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (227, '为人类的幸福而劳动，这是多么壮丽的事业，这个目的有多么伟大！', '圣西门', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (228, '每一个人可能的最大幸福是在全体人所实现的最大幸福之中。', '左拉', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (229, '真正的幸福只有当你真实地认识到人生的价值时，才能体会到。', '穆尼尔·纳素夫', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (230, '有研究的兴味的人是幸福的！能够通过研究使自己的精神摆脱妄念并使自己摆脱虚荣新的人更加幸福。', '拉美特利', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (231, '把别人的幸福当做自己的幸福，把鲜花奉献给他人，把棘刺留给自己！', '巴尔德斯', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (232, '只要你有一件合理的事去做，你的生活就会显得特别美好。', '爱因斯坦', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (233, '科学决不是一种自私自利的享乐。有幸能够致力于科学研究的人，首先应该拿自己的学识为人类服务。', '马克思', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (234, '即使自己变成了一撮泥土，只要它是铺在通往真理的大道上，让自己的伙伴们大踏步地冲过去，也是最大的幸福。', '吴运铎', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (235, '人类的一切努力的目的在于获得幸福。', '欧文', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (236, '唯独革命家，无论他生或死，都能给大家以幸福。', '鲁迅', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (237, '牛吃草，马吃料，牛的享受最少，出力最大，所以还是当一头黄牛最好。我甘愿为党、为人民当一辈子老黄牛。', '王进喜', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (238, '人在履行职责中得到幸福。就象一个人驮着东西，可心头很舒畅。人要是没有它，不尽什麽职责，就等于驾驶空车一样，也就是说，白白浪费。', '罗佐夫', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (239, '我的艺术应当只为贫苦的人造福。啊，多麽幸福的时刻啊！当我能接近这地步时，我该多麽幸福啊！', '贝多芬', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (240, '创造，或者酝酿未来的创造。这是一种必要性：幸福只能存在于这种必要性得到满足的时候。', '罗曼·罗兰', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (241, '幸福越与人共享，它的价值越增加。', '森村诚一', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (242, '科学家的天职叫我们应当继续奋斗，彻底揭露自然界的奥秘，掌握这些奥秘便能在将来造福人类。', '约里奥.居里', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (243, '只有整个人类的幸福才是你的幸福。', '狄慈根', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (244, '如果幸福在于肉体的快感，那麽就应当说，牛找到草料吃的时候是幸福的。', '赫拉克利特', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (245, '如果有一天，我能够对我们的公共利益有所贡献，我就会认为自己是世界上最幸福的人了。', '果戈理', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (246, '个人的痛苦与欢乐，必须融合在时代的痛苦与欢乐里。', '艾青', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (247, '安得广厦千万间，大庇天下寒士俱欢颜。', '杜甫', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (248, '一个人有了远大的理想，就是在最艰苦难的时候，也会感到幸福。', '徐特立', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (249, '作家当然必须挣钱才能生活，写作，但是他决不应该为了挣钱而生活，写作。', '马克思', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (250, '一无所有的人是有福的，因为他们将获得一切！', '罗曼.罗兰', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (251, '当你幸福的时候，切勿丧失使你成为幸福的德行。', '莫罗阿', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (252, '猝然死去本无甚苦痛，长期累死倒真难以忍受。', '佚名', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (253, '幸福，假如它只是属于我，成千上万人当中的一个人的财产，那就快从我这儿滚开吧！', '别林斯基', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (254, '幸福的斗争不论它是如何的艰难，它并不是一种痛苦，而是快乐，不是悲剧的，而只是戏剧的。', '车尔尼雪夫斯基', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (255, '人们所努力追求的庸俗的目标、财产、虚荣、奢侈的生活，我总觉得都是可鄙的。', '爱因斯坦', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (256, '建筑在别人痛苦上的幸福不是真正的幸福。', '阿·巴巴耶娃', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (257, '想不付出任何代价而得到幸福，那是神话。', '徐特立', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (258, '穿掘着灵魂的深处，使人受了精神底苦刑而得到创伤，又即从这得伤和养伤和愈合中，得到苦的涤除，而上了苏生的路。', '鲁迅', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (259, '人真正的完美不在于他拥有什么，而在于他是什么。', '王尔德', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (260, '谦卑并不意味着多顾他人少顾自己，也不意味着承认自己是个无能之辈，而是意味着从根本上把自己置之度外。', '威廉·特姆坡', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (261, '人类是唯一会脸红的动物，或是唯一该脸红的动物。', '马克·吐温', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (262, '习惯就是习惯，谁也不能将其扔出窗外，只能一步一步地引下楼。', '马克·吐温', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (263, '人生并非游戏，因此，我们并没有权利只凭自己的意愿放弃它。', '列夫.托尔斯泰', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (264, '你明白，人的一生，既不是人们想象的那么好，也不是那么坏。', '莫泊桑', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (265, '首先是最崇高的思想，其次才是金钱；光有金钱而没有最崇高的思想的社会是会崩溃的。', '陀思妥耶夫斯基', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (266, '如果痛苦换来的是结识真理、坚持真理，就应自觉的欣然承受，那时，也只有那时，痛苦才将化为幸福。', '张志新', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (267, '严肃的人的幸福，并不在于风流、娱乐与欢笑这种种轻佻的伴侣，而在于坚忍与刚毅。', '西塞罗', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (268, '你想成为幸福的人吗？但愿你首先学会吃得起苦。', '屠格涅夫', '幸福', 0);
+INSERT INTO [quotes] ([id], [q_content], [q_author], [q_type], [q_count]) VALUES (269, '我们手里的金钱是保持自由的一种工具。', '卢梭', '幸福', 0);
+
+-- Table: notes
+CREATE TABLE notes ( 
+    id         INTEGER        PRIMARY KEY AUTOINCREMENT,
+    n_title    VARCHAR( 50 )  NOT NULL,
+    n_content  TEXT           NOT NULL,
+    n_time     INT            DEFAULT '0',
+    n_count    INT            DEFAULT '0',
+    n_lock     BOOLEAN        DEFAULT 'false',
+    n_postdate DATETIME       DEFAULT ( datetime( 'now', 'localtime' )  ),
+    lat        REAL( 4, 6 )   DEFAULT ( 0.0 ),
+    lng        REAL( 4, 6 )   DEFAULT ( 0.0 ) 
+);
+
+INSERT INTO [notes] ([id], [n_title], [n_content], [n_time], [n_count], [n_lock], [n_postdate], [lat], [lng]) VALUES (1, '使用说明', '        很多事情不用记得太清楚，太清楚也许更痛苦。
+        为你的记事设置时间和次数限制，让它自动消失，从此无忧无虑。
+        就让往事随风，放飞你的喜怒哀乐~
+
+风知记事 v1.0
+
+        本应用由四个界面构成，即欢迎界面、主界面、新建界面和查看界面。
+        其中共包含以下功能模块：欢迎、新建、查看、修改、删除、刷新、模式、排序、搜索和菜单等。
+
+欢迎：	欢迎界面显示应用名称和logo以及每日变化的寄语；
+新建：	新建一个记事，输入标题（非必需）和内容（必须）然后设置“放飞”，保存即可，过程中可以查看已输入字数及清空记事；
+查看：	在主界面点击记事，可查看标题和内容；
+修改：	在主界面点击记事，可编辑内容，可以保存。点击加锁，使记事不可编辑，解锁使记事可编辑；
+删除：	在主界面长按记事，可看到记事剩余时间和次数，此时可进行删除操作。在查看界面也可对记事进行删除操作；
+刷新：	在主界面下拉可刷新，页面间跳转也会刷新数据；
+模式：	可以在列表模式和网格模式间自由切换，方便查看记事（默认列表模式）；
+排序：	对记事进行按添加时间的时间排序，方便查看记事（默认逆序模式）；
+搜索：	对记事的标题、内容和添加时间进行搜索，无需按键，结果立刻显示，点击标题栏或清空搜索框可取消搜索；
+菜单：	共有皮肤、密码、感悟、帮助、关于和退出六个选项；
+	皮肤：	切换界面颜色，既有预设选项，也可以自定义颜色；
+	密码：	为记事上锁，防止隐私泄露，可修改和取消密码；
+	感悟：	可以说说对欢迎页寄语的一些感受和理解；
+	帮助：	查看使用说明；
+	关于：	查看作者信息和联系方式；
+	退出：	退出应用；
+
+        使用说明在这里只能查看1次哦，如果还需要查看请移步菜单中的帮助！
+        如果在使用中遇到任何问题，请及时与我联系，我会不断对该应用进行改进。
+        谢谢！', -1, 1, 1, '2014-04-03 20:39:25.000', null, 0.0);

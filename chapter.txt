@@ -1,0 +1,249 @@
+文件夹 PATH 列表
+卷序列号为 00000200 3CD2:D088
+C:.
+│  360手机助手截图0413_12_05_01.png
+│  360手机助手截图0413_12_06_01.png
+│  360手机助手截图0413_12_06_02.png
+│  360手机助手截图0413_12_06_03.png
+│  360手机助手截图0413_12_13_01.png
+│  360手机助手截图0413_12_15_01.png
+│  360手机助手截图0413_12_17_01.png
+│  javaapk.com文件列表生成工具.bat
+│  JavaApk源码说明.txt
+│  点这里查看更多优质源码~.url
+│  目录列表.txt
+│  
+└─WindNote
+    │  .classpath
+    │  .project
+    │  AndroidManifest.xml
+    │  ic_launcher-web.png
+    │  proguard-project.txt
+    │  project.properties
+    │  
+    ├─.settings
+    │      org.eclipse.jdt.core.prefs
+    │      
+    ├─assets
+    ├─bin
+    │  │  AndroidManifest.xml
+    │  │  classes.dex
+    │  │  jarlist.cache
+    │  │  resources.ap_
+    │  │  WindNote.apk
+    │  │  
+    │  ├─classes
+    │  │  └─com
+    │  │      └─swimmi
+    │  │          └─windnote
+    │  │                  Add$1.class
+    │  │                  Add$2.class
+    │  │                  Add$3$1.class
+    │  │                  Add$3$2.class
+    │  │                  Add$3.class
+    │  │                  Add$4.class
+    │  │                  Add$5.class
+    │  │                  Add.class
+    │  │                  BuildConfig.class
+    │  │                  ColorPickerDialog$ColorPickerView.class
+    │  │                  ColorPickerDialog$OnColorChangedListener.class
+    │  │                  ColorPickerDialog.class
+    │  │                  Main$1$1.class
+    │  │                  Main$1.class
+    │  │                  Main$10.class
+    │  │                  Main$11.class
+    │  │                  Main$12.class
+    │  │                  Main$13.class
+    │  │                  Main$14.class
+    │  │                  Main$15.class
+    │  │                  Main$16$1.class
+    │  │                  Main$16.class
+    │  │                  Main$17.class
+    │  │                  Main$18.class
+    │  │                  Main$2.class
+    │  │                  Main$3.class
+    │  │                  Main$4.class
+    │  │                  Main$5.class
+    │  │                  Main$6.class
+    │  │                  Main$7.class
+    │  │                  Main$8.class
+    │  │                  Main$9.class
+    │  │                  Main.class
+    │  │                  My.class
+    │  │                  Note$1.class
+    │  │                  Note$2.class
+    │  │                  Note$3.class
+    │  │                  Note.class
+    │  │                  R$attr.class
+    │  │                  R$color.class
+    │  │                  R$dimen.class
+    │  │                  R$drawable.class
+    │  │                  R$id.class
+    │  │                  R$layout.class
+    │  │                  R$raw.class
+    │  │                  R$string.class
+    │  │                  R$style.class
+    │  │                  R.class
+    │  │                  Welcome$1.class
+    │  │                  Welcome$2.class
+    │  │                  Welcome$3.class
+    │  │                  Welcome.class
+    │  │                  
+    │  ├─dexedLibs
+    │  │      android-support-v4-94238c81b3dc7e508259db9b9daefe1b.jar
+    │  │      
+    │  └─res
+    │      └─crunch
+    │          ├─drawable-hdpi
+    │          │      ic_launcher.png
+    │          │      
+    │          ├─drawable-mdpi
+    │          │      ic_launcher.png
+    │          │      
+    │          ├─drawable-xhdpi
+    │          │      ic_launcher.png
+    │          │      
+    │          └─drawable-xxhdpi
+    │                  about.png
+    │                  add.png
+    │                  asc.png
+    │                  back.png
+    │                  cancel.png
+    │                  delete.png
+    │                  desc.png
+    │                  edit.png
+    │                  exit.png
+    │                  font.png
+    │                  gone.png
+    │                  grid.png
+    │                  help.png
+    │                  ic_launcher.png
+    │                  key.png
+    │                  list.png
+    │                  lock.png
+    │                  menu.png
+    │                  minus.png
+    │                  no.png
+    │                  ok.png
+    │                  plus.png
+    │                  refresh.png
+    │                  save.png
+    │                  say.png
+    │                  search.png
+    │                  skin.png
+    │                  unlock.png
+    │                  windnote_big.png
+    │                  yes.png
+    │                  
+    ├─gen
+    │  └─com
+    │      └─swimmi
+    │          └─windnote
+    │                  BuildConfig.java
+    │                  R.java
+    │                  
+    ├─libs
+    │      android-support-v4.jar
+    │      
+    ├─res
+    │  ├─drawable-hdpi
+    │  │      grid_bg.xml
+    │  │      grid_enabled.xml
+    │  │      grid_focused.xml
+    │  │      grid_pressed.xml
+    │  │      ic_launcher.png
+    │  │      list_bg.xml
+    │  │      list_enabled.xml
+    │  │      list_focused.xml
+    │  │      list_pressed.xml
+    │  │      search_bg.xml
+    │  │      txt_bg.xml
+    │  │      
+    │  ├─drawable-ldpi
+    │  ├─drawable-mdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-xhdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-xxhdpi
+    │  │      about.png
+    │  │      add.png
+    │  │      asc.png
+    │  │      back.png
+    │  │      cancel.png
+    │  │      delete.png
+    │  │      desc.png
+    │  │      edit.png
+    │  │      exit.png
+    │  │      font.png
+    │  │      gone.png
+    │  │      grid.png
+    │  │      help.png
+    │  │      ic_launcher.png
+    │  │      key.png
+    │  │      list.png
+    │  │      lock.png
+    │  │      menu.png
+    │  │      minus.png
+    │  │      no.png
+    │  │      ok.png
+    │  │      plus.png
+    │  │      refresh.png
+    │  │      save.png
+    │  │      say.png
+    │  │      search.png
+    │  │      skin.png
+    │  │      unlock.png
+    │  │      windnote_big.png
+    │  │      yes.png
+    │  │      
+    │  ├─layout
+    │  │      aboutme.xml
+    │  │      add.xml
+    │  │      cancelkey.xml
+    │  │      deletenote.xml
+    │  │      editkey.xml
+    │  │      gone.xml
+    │  │      griditem.xml
+    │  │      gridmenu.xml
+    │  │      listitem.xml
+    │  │      main.xml
+    │  │      menuitem.xml
+    │  │      note.xml
+    │  │      resetkey.xml
+    │  │      setkey.xml
+    │  │      welcome.xml
+    │  │      
+    │  ├─menu
+    │  ├─raw
+    │  │      windnote.db
+    │  │      
+    │  ├─values
+    │  │      dimens.xml
+    │  │      strings.xml
+    │  │      styles.xml
+    │  │      
+    │  ├─values-sw600dp
+    │  │      dimens.xml
+    │  │      
+    │  ├─values-sw720dp-land
+    │  │      dimens.xml
+    │  │      
+    │  ├─values-v11
+    │  │      styles.xml
+    │  │      
+    │  └─values-v14
+    │          styles.xml
+    │          
+    └─src
+        └─com
+            └─swimmi
+                └─windnote
+                        Add.java
+                        ColorPickerDialog.java
+                        Main.java
+                        My.java
+                        Note.java
+                        Welcome.java
+                        
